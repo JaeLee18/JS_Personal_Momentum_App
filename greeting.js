@@ -28,10 +28,8 @@ function paintGreeting(text){
 function loadName(){
     const currentUser = localStorage.getItem(USER_LS);
     if(currentUser === null){
-        console.log("current user null");
         askForName();
     }else {
-        console.log("current user NOT null");
         paintGreeting(currentUser);
     }
 
