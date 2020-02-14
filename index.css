@@ -3,7 +3,8 @@ body{
 }
 
 body {
-    color: #596275;
+    color: #ffffff ;
+    text-align: center;
 }
 
 .btn {
@@ -17,10 +18,33 @@ body {
 
 .showing {
     display: block;
+    text-align: center;
 }
 
+.clock{
+    padding-top: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 6em;
+}
 
+.js-weather{
+    position: absolute; top: 20px; right: 30px;
+    font-weight: bold;
+    font-size: 1em;
+    color: #596275;
+}
 
+.js-toDoList{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.js-greetings{
+    font-weight: bold;
+    font-size: 3em;
+}
 @keyframes fadeIn{
     from{
         opacity: 0;
