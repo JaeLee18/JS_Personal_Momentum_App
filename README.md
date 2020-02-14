@@ -3,7 +3,7 @@ Momentum App Implementation using JS
 
 ## Intro
 - It has a real-time clock.
-- It shows your temperature.
+- It shows your temperature from openweathermap API.
 - You can add to-do lists.
 
 ## Video Walkthrough
